@@ -19,4 +19,7 @@ module.exports = {
     "plugin:react-hooks/recommended",
   ],
   ignorePatterns: ["/node_modules", "/build/", "/public/"],
+  rules: {
+    "react/prop-types": "off",
+  },
 };
