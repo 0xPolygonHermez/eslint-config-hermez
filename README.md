@@ -17,11 +17,17 @@ First of all, you will need to install the `peerDependencies`:
 npm i react typescript eslint
 ```
 
+After that, you'll be able to install the package without warnings:
+
+```sh
+npm i @hermeznetwork/eslint-config-hermez
+```
+
 Then, create an `.eslintrc.json` file in your frontend project with this content:
 
 ```json
 {
-  "extends": "eslint-config-hermez"
+  "extends": "@hermeznetwork/eslint-config-hermez"
 }
 ```
 
