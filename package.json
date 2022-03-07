@@ -1,6 +1,6 @@
 {
   "name": "@hermeznetwork/eslint-config-hermez",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Shared ESLint config for all the frontends projects in Hermez",
   "main": "index.js",
   "author": "@hermeznetwork",
