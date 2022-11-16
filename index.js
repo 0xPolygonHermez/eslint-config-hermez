@@ -34,7 +34,6 @@ module.exports = {
     "sort-keys-fix",
     "typescript-sort-keys",
   ],
-  project: "./tsconfig.json",
   rules: {
     "import/order": ["error", { alphabetize: { order: "asc", caseInsensitive: true } }],
     "no-console": ["warn", { allow: ["error"] }],
