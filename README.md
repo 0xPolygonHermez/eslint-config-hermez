@@ -22,16 +22,17 @@ After that, you'll be able to install the package without warnings:
 npm i @hermeznetwork/eslint-config-hermez
 ```
 
-Then, create an `.eslintrc.json` file in your frontend project with this content:
+Then, create an `.eslintrc.json` file in your frontend project extending the config and specifying
+your build directory inside the `ignorePatterns` array:
 
 ```json
 {
   "extends": "@hermeznetwork/eslint-config-hermez",
-  "ignorePatterns": ["build"] // Build directory
+  "ignorePatterns": ["build"]
 }
 ```
 
-Check that everything works fine:
+Finally, check that everything works fine by running:
 
 ```sh
 eslint --ext .ts,.tsx .
