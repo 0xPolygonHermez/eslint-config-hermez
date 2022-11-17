@@ -16,7 +16,7 @@ module.exports = {
     "plugin:import/typescript",
     "plugin:typescript-sort-keys/recommended",
   ],
-  ignorePatterns: ["build", "node_modules", "package-lock.json"],
+  ignorePatterns: ["node_modules", "package-lock.json"],
   parser: "@typescript-eslint/parser",
   parserOptions: {
     ecmaVersion: "latest",
@@ -34,6 +34,7 @@ module.exports = {
     "sort-keys-fix",
     "typescript-sort-keys",
   ],
+  root: true,
   rules: {
     "import/order": ["error", { alphabetize: { order: "asc", caseInsensitive: true } }],
     "react/jsx-curly-brace-presence": "warn",
