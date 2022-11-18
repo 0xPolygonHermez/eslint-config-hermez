@@ -1,23 +1,23 @@
 {
-  "name": "@hermeznetwork/eslint-config-hermez",
+  "name": "@iden3/eslint-config-react-ts",
   "version": "2.0.0",
   "description": "Strict & opinionated ESLint config for React/Typescript projects.",
   "main": "index.js",
-  "author": "@hermeznetwork",
+  "author": "@iden3",
   "license": "gpl-3.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hermeznetwork/eslint-config-hermez.git"
+    "url": "git+https://github.com/iden3/eslint-config-react-ts.git"
   },
   "keywords": [
     "eslint",
     "config",
-    "hermez",
+    "iden3",
     "linter"
   ],
-  "homepage": "https://github.com/hermeznetwork/eslint-config-hermez#readme",
+  "homepage": "https://github.com/iden3/eslint-config-react-ts#readme",
   "bugs": {
-    "url": "https://github.com/hermeznetwork/eslint-config-hermez/issues"
+    "url": "https://github.com/iden3/eslint-config-react-ts/issues"
   },
   "peerDependencies": {
     "eslint": ">=8",
