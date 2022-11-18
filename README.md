@@ -3,11 +3,10 @@
 This repo contains a shareable ESLint config to share across all the frontend projects in the Hermez
 organization. It has been designed to work with TypeScript and React.
 
-This config will ignore common directories in a React project created with `create-react-app`:
+This config will ignore common directories and files in a React project:
 
 - `node-modules`
-- `build`
-- `public`
+- `package-lock.json`
 
 # Setup
 
@@ -23,15 +22,17 @@ After that, you'll be able to install the package without warnings:
 npm i @hermeznetwork/eslint-config-hermez
 ```
 
-Then, create an `.eslintrc.json` file in your frontend project with this content:
+Then, create an `.eslintrc.json` file in your frontend project extending the config and specifying
+your build directory inside the `ignorePatterns` array:
 
 ```json
 {
-  "extends": "@hermeznetwork/eslint-config-hermez"
+  "extends": "@hermeznetwork/eslint-config-hermez",
+  "ignorePatterns": ["build"]
 }
 ```
 
-Check that everything works fine:
+Finally, check that everything works fine by running:
 
 ```sh
 eslint --ext .ts,.tsx .

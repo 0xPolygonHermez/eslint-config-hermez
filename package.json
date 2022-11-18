@@ -1,10 +1,10 @@
 {
   "name": "@hermeznetwork/eslint-config-hermez",
-  "version": "1.1.0",
-  "description": "Shared ESLint config for all the frontends projects in Hermez",
+  "version": "2.0.0",
+  "description": "Strict & opinionated ESLint config for React/Typescript projects.",
   "main": "index.js",
   "author": "@hermeznetwork",
-  "license": "AGPL-3.0",
+  "license": "gpl-3.0",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hermeznetwork/eslint-config-hermez.git"
@@ -12,14 +12,15 @@
   "keywords": [
     "eslint",
     "config",
-    "hermez"
+    "hermez",
+    "linter"
   ],
   "homepage": "https://github.com/hermeznetwork/eslint-config-hermez#readme",
   "bugs": {
     "url": "https://github.com/hermeznetwork/eslint-config-hermez/issues"
   },
   "peerDependencies": {
-    "eslint": ">=6",
+    "eslint": ">=8",
     "react": ">=17",
     "typescript": ">=4"
   },
@@ -27,9 +28,20 @@
     "prettier": "^2.5.1"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.13.0",
-    "@typescript-eslint/parser": "^5.13.0",
-    "eslint-plugin-react": "^7.29.3",
-    "eslint-plugin-react-hooks": "^4.3.0"
+    "@typescript-eslint/eslint-plugin": "^5.43.0",
+    "@typescript-eslint/parser": "^5.41.0",
+    "eslint-import-resolver-typescript": "^3.5.2",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-json": "^3.1.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-react": "^7.31.10",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-sort-destructure-keys": "^1.4.0",
+    "eslint-plugin-sort-keys-fix": "^1.1.2",
+    "eslint-plugin-typescript-sort-keys": "^2.1.0"
+  },
+  "engines": {
+    "node": ">=16",
+    "npm": ">=8"
   }
 }
