@@ -1,9 +1,9 @@
 {
-  "name": "@iden3/eslint-config-react-ts",
+  "name": "@hermeznetwork/eslint-config-react-ts",
   "version": "2.0.0",
   "description": "Strict & opinionated ESLint config for React/Typescript projects.",
   "main": "index.js",
-  "author": "@iden3",
+  "author": "@hermeznetwork",
   "license": "gpl-3.0",
   "repository": {
     "type": "git",
