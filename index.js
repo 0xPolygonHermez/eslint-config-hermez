@@ -33,9 +33,11 @@ module.exports = {
     "sort-destructure-keys",
     "sort-keys-fix",
     "typescript-sort-keys",
+    "unicorn",
   ],
   root: true,
   rules: {
+    curly: "error",
     "import/order": ["error", { alphabetize: { order: "asc", caseInsensitive: true } }],
     "react/jsx-curly-brace-presence": "warn",
     "react/display-name": "off",
@@ -44,6 +46,7 @@ module.exports = {
     "sort-imports": ["error", { ignoreDeclarationSort: true }],
     "sort-destructure-keys/sort-destructure-keys": ["error", { caseSensitive: false }],
     "sort-keys-fix/sort-keys-fix": ["error", "asc", { caseSensitive: false }],
+    "unicorn/switch-case-braces": "error",
   },
   settings: {
     "import/resolver": {
