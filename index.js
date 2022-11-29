@@ -39,6 +39,7 @@ module.exports = {
   rules: {
     curly: "error",
     "import/order": ["error", { alphabetize: { order: "asc", caseInsensitive: true } }],
+    "no-duplicate-imports": "error",
     "react/jsx-curly-brace-presence": "warn",
     "react/display-name": "off",
     "react/jsx-sort-props": ["error", { ignoreCase: true }],
