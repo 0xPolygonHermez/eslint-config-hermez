@@ -38,6 +38,8 @@ module.exports = {
   root: true,
   rules: {
     curly: "error",
+    "import/no-cycle": "error",
+    "import/no-default-export": "error",
     "import/order": ["warn", { alphabetize: { order: "asc", caseInsensitive: true } }],
     "no-console": ["warn", { allow: ["error"] }],
     "no-duplicate-imports": "error",
