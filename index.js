@@ -53,6 +53,7 @@ module.exports = {
     "sort-destructure-keys/sort-destructure-keys": ["warn", { caseSensitive: false }],
     "sort-keys-fix/sort-keys-fix": ["warn", "asc", { caseSensitive: false }],
     "unicorn/switch-case-braces": "error",
+    "@typescript-eslint/consistent-type-definitions": ["error", "type"],
   },
   settings: {
     "import/resolver": {
