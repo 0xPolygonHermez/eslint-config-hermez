@@ -38,6 +38,8 @@ module.exports = {
   ],
   root: true,
   rules: {
+    "@typescript-eslint/consistent-type-definitions": ["error", "type"],
+    "@typescript-eslint/no-unused-vars": ["error", { varsIgnorePattern: "_", argsIgnorePattern: "_" }],
     curly: "error",
     "import/no-cycle": "error",
     "import/no-default-export": "error",
@@ -53,7 +55,6 @@ module.exports = {
     "sort-destructure-keys/sort-destructure-keys": ["warn", { caseSensitive: false }],
     "sort-keys-fix/sort-keys-fix": ["warn", "asc", { caseSensitive: false }],
     "unicorn/switch-case-braces": "error",
-    "@typescript-eslint/consistent-type-definitions": ["error", "type"],
   },
   settings: {
     "import/resolver": {
