@@ -39,7 +39,7 @@ module.exports = {
   root: true,
   rules: {
     "@typescript-eslint/consistent-type-definitions": ["error", "type"],
-    "@typescript-eslint/no-unused-vars": ["error", { varsIgnorePattern: "_", argsIgnorePattern: "_" }],
+    "@typescript-eslint/no-unused-vars": ["error", { varsIgnorePattern: "^_", argsIgnorePattern: "^_" }],
     curly: "error",
     "import/no-cycle": "error",
     "import/no-default-export": "error",
