@@ -1,6 +1,6 @@
 {
   "name": "@iden3/eslint-config-react-ts",
-  "version": "1.6.0",
+  "version": "1.7.0",
   "description": "Strict & opinionated ESLint config for React/Typescript projects.",
   "main": "index.js",
   "author": "@iden3",
